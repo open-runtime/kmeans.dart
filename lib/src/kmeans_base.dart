@@ -341,6 +341,9 @@ class KMeansInitializers {
         if (cum > r) {
           break;
         }
+        if (pointIndex == ps.length - 1) {
+          break;
+        }
         pointIndex++;
       }
       means[i] = points[pointIndex];
