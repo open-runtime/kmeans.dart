@@ -10,7 +10,5 @@ homepage: https://www.github.com/zanderso/kmeans.dart
 environment:
   sdk: '>=3.6.0 <4.0.0'
 
-resolution: workspace
-
 dev_dependencies:
   test: ^1.14.4
